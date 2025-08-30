@@ -58,4 +58,4 @@ WORKDIR /usr/local/src/CellProfiler
 
 # Entrypoint
 ENTRYPOINT ["cellprofiler"]
-CMD ["--run", "--run-headless", "--help"]
+CMD ["--run"]
